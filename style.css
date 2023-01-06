@@ -43,12 +43,26 @@
 
 .col-3 h6{
     text-align: center;
-    margin: 30px;
+    padding: 30px;
 }
 
 .mag-shadow{
     padding: 30px 50px 0px 50px;
     border: none;
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 0px 0px 20px 10px lightgrey;
     margin: 20px;
+}
+
+.mag-shadow.single{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mag-shadow.double{
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
 }
