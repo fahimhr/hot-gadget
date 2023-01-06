@@ -16,6 +16,7 @@
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
 }
 
 .product{
